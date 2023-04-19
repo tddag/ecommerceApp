@@ -1,6 +1,6 @@
 ### Live Demo 
 
-https://td-openai-codex-app.netlify.app/ 
+https://td-ecommerceapp.onrender.com/
 
 <img width="600" alt="Screenshot 2023-04-19 at 00 17 40" src="https://user-images.githubusercontent.com/34137087/232965949-063b010d-bf9f-425d-9f06-47e24cc0d245.png">
 
