@@ -1,3 +1,13 @@
+### Live Demo 
+
+https://td-openai-codex-app.netlify.app/ 
+
+<img width="600" alt="Screenshot 2023-04-19 at 00 17 40" src="https://user-images.githubusercontent.com/34137087/232965949-063b010d-bf9f-425d-9f06-47e24cc0d245.png">
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
