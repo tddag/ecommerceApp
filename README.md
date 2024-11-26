@@ -6,6 +6,79 @@ https://td-ecommerceapp.onrender.com/
 
 
 
+# Setup
+
+- Install [Node](https://nodejs.org/en/download/)
+- Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- Clone the repository `https://github.com/tddag/ecommerceApp`
+- Install dependencies `npm install --legacy-peer-deps`
+- Setup [Sanity](https://www.sanity.io/)
+- Setup [Stripe](https://dashboard.stripe.com/login)
+- Setup environment variables:
+  - <table>
+        <tr>
+            <th>Variable</th>
+            <th>Value</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>NEXT_PUBLIC_SANITY_TOKEN</td>
+            <td>skyedYF7...</td>
+            <td>Sanity Token</td>
+        </tr>   
+        <tr>
+            <td>NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY</td>
+            <td>pk_test_51My57....</td>
+            <td>Stripe Public Key</td>
+        </tr>   
+        <tr>
+            <td>STRIPE_SECRET_KEY</td>
+            <td>sk_test_51My5....</td>
+            <td>Stripe Secret Key</td>
+        </tr>                                                   
+    </table>
+- Run the application `npm run dev`
+
+
+# Functionalities
+- Add new Product
+    <table>
+        <tr>
+            <td><img src="./screenshots/add_new_product.png" alt="add_new_product"></td>
+        </tr>
+    </table>
+- Product Listing
+    <table>
+        <tr>
+            <td><img src="./screenshots/product_listing.png" alt="product_listing"></td>
+        </tr>
+    </table>
+- Product Details, Add Product to Cart, Cart
+    <table>
+        <tr>
+            <td><img src="./screenshots/product_details.png" alt="product_details"></td>
+            <td><img src="./screenshots/cart.png" alt="cart"></td>
+        </tr>
+    </table>
+- Stripe payment
+    <table>
+        <tr>
+            <td><img src="./screenshots/stripe.png" alt="stripe"></td>
+            <td><img src="./screenshots/payment_success.png" alt="payment_success"></td>
+        </tr>
+    </table>
+
+# Test Data
+- Test Stripe Credit Card Number `4242 4242 4242 4242`
+
+# Technologies/Libraries
+- NextJS: React Framework
+- React: Web library
+- Sanity: headless CMS (Content Management System)
+- Stripe: payment APIs
+- canvas-confetti: Confetti animations
+
+
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
